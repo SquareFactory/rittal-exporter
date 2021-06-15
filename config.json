@@ -1,0 +1,51 @@
+{
+  "bindings": [{
+      "socket": 1,
+      "node": "cn1"
+    },
+    {
+      "socket": 2,
+      "node": "cn2"
+    },
+    {
+      "socket": 7,
+      "node": "cn3"
+    },
+    {
+      "socket": 8,
+      "node": "cn4"
+    },
+    {
+      "socket": 11,
+      "node": "cn5"
+    },
+    {
+      "socket": 12,
+      "node": "cn6"
+    },
+    {
+      "socket": 17,
+      "node": "cn7"
+    },
+    {
+      "socket": 18,
+      "node": "cn8"
+    },
+    {
+      "socket": 21,
+      "node": "cn9"
+    },
+    {
+      "socket": 22,
+      "node": "cn10"
+    },
+    {
+      "socket": 27,
+      "node": "cn11"
+    },
+    {
+      "socket": 28,
+      "node": "cn12"
+    }
+  ]
+}
