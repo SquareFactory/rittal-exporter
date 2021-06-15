@@ -1,6 +1,7 @@
 import json
 import os
 import time
+import traceback
 import urllib.request
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
@@ -199,6 +200,10 @@ if __name__ == "__main__":
     start_http_server(PORT)
 
     while True:
-        sockets = fetch_sockets()
-        process_data(sockets)
-        time.sleep(UPDATE_PERIOD)
+        try:
+            print("Fetch")
+            sockets = fetch_sockets()
+            process_data(sockets)
+            time.sleep(UPDATE_PERIOD)
+        except:
+            traceback.print_exc()
