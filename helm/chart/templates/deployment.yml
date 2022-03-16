@@ -83,7 +83,7 @@ spec:
             {{- end}}
           resources:
 {{ toYaml .Values.resources | indent 12 }}
-    volumes:
-      - name: "{{ template "rittal-exporter.name" . }}-config-volume"
-        configMap:
-          name: "{{ template "rittal-exporter.name" . }}-config"
+      volumes:
+        - name: "{{ template "rittal-exporter.name" . }}-config-volume"
+          configMap:
+            name: "{{ template "rittal-exporter.name" . }}-config"
