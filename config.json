@@ -8,11 +8,11 @@
       "node": "cn2"
     },
     {
-      "socket": 7,
+      "socket": 9,
       "node": "cn3"
     },
     {
-      "socket": 8,
+      "socket": 10,
       "node": "cn4"
     },
     {
@@ -24,11 +24,11 @@
       "node": "cn6"
     },
     {
-      "socket": 17,
+      "socket": 19,
       "node": "cn7"
     },
     {
-      "socket": 18,
+      "socket": 20,
       "node": "cn8"
     },
     {
@@ -40,11 +40,11 @@
       "node": "cn10"
     },
     {
-      "socket": 27,
+      "socket": 29,
       "node": "cn11"
     },
     {
-      "socket": 28,
+      "socket": 30,
       "node": "cn12"
     }
   ]
