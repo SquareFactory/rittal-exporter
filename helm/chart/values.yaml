@@ -80,30 +80,31 @@ tolerations: []
 
 config:
   bindings:
-    - socket: 1
-      node: cn1
-    - socket: 2
-      node: cn2
-    - socket: 9
-      node: cn3
-    - socket: 10
-      node: cn4
-    - socket: 11
-      node: cn5
-    - socket: 12
-      node: cn6
-    - socket: 19
-      node: cn7
-    - socket: 20
-      node: cn8
-    - socket: 21
-      node: cn9
-    - socket: 22
-      node: cn10
-    - socket: 29
-      node: cn11
-    - socket: 30
-      node: cn12
+    []
+    # - socket: 1
+    #   node: cn1
+    # - socket: 2
+    #   node: cn2
+    # - socket: 9
+    #   node: cn3
+    # - socket: 10
+    #   node: cn4
+    # - socket: 11
+    #   node: cn5
+    # - socket: 12
+    #   node: cn6
+    # - socket: 19
+    #   node: cn7
+    # - socket: 20
+    #   node: cn8
+    # - socket: 21
+    #   node: cn9
+    # - socket: 22
+    #   node: cn10
+    # - socket: 29
+    #   node: cn11
+    # - socket: 30
+    #   node: cn12
 
 env:
   PROMETHEUS_URL: http://prometheus-kube-prometheus-prometheus.monitoring.svc:9090/
